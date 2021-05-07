@@ -1,0 +1,167 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+#title {
+  background-color: #e6e6fa;
+  color: #fff;
+  padding-bottom: 30px;
+}
+#products {
+    background-color: #e6e6fa;
+    color: black;
+    padding: 7% 15%;
+}
+#product-intro {
+  padding-top: 20px;
+}
+#disclaimer {
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+}
+h2 {
+  color: #c81912;
+  font-size: 2.5rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1 {
+  color: #c81912;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 5.625rem;
+}
+
+h3 {
+  color: #c81912;
+  font-family: 'Montserrat', serif;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+p {
+  padding-top: 10px;
+  color: #8f8f8f;
+  line-height: 3;
+}
+#tumblers {
+  text-align: center;
+}
+#t-shirts {
+  text-align: center;
+}
+.intro {
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+}
+.planter-box {
+  width: 50%;
+  float: right;
+  margin-left: 30px;
+}
+.yard-ornaments {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+.candy-jars {
+  width: 50%;
+  float: right;
+  margin-left: 30px;
+}
+.t-shirts {
+  width: 20%;
+  margin-top: 10px;
+}
+.tumblers {
+  width: 50%;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.disclaimer {
+  margin: 20px 20px;
+  background-color: white;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.intro{
+  text-align: center;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px 20px 10px 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+ }
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.carousel-item{
+  padding:7% 15%;
+}
